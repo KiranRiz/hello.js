@@ -1,4 +1,6 @@
-alert("Hello World!");function sumM(f, m) {
+alert("WELCOME!");
+
+function sumM(f, m) {
     let sum = 0;
 
     for (let i = 0; i < m.length; i++) {
