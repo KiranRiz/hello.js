@@ -1,6 +1,10 @@
-let name=document.getElementById("text1").value;
-let age=document.getElementById("text2").value;
+function Action() {
 
-let output= "your"+ name + "age" + age;
+    let name = document.getElementById("text1").value;
+    let age = document.getElementById("text2").value;
 
-document.getElementById("result").innerHTML = output;
+    let output = "your" + name + "and age is" + age;
+
+    document.getElementById("result").innerHTML = output;
+
+}
