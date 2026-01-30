@@ -7,6 +7,7 @@ function sumM(f, m) {
         for (let j = 0; j < f.length; j++) {
             if (m[i] % f[j] == 0) {
                 sum += m[i];
+                break;
             }
         }
     }
