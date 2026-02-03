@@ -6,6 +6,6 @@ fetch(url)
     let div = document.getElementById("data");
 
     data.forEach(user => {
-      div.innerHTML += user.name + "<br>";
+      div.innerHTML += user.name;
     });
   });
